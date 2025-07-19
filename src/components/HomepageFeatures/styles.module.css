@@ -1,0 +1,63 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+  width: 100%;
+  background: linear-gradient(135deg, #fefefe 0%, #fff0f3 100%);
+}
+
+:global([data-theme='dark']) .features {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d1b3d 100%);
+}
+
+.featureIcon {
+  height: 120px;
+  width: 120px;
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  background: linear-gradient(135deg, #fff, rgba(247, 190, 216, 0.1));
+  border-radius: 50%;
+  box-shadow: 0 8px 32px rgba(247, 190, 216, 0.2);
+  transition: all 0.3s ease;
+  border: 2px solid rgba(247, 190, 216, 0.1);
+}
+
+:global([data-theme='dark']) .featureIcon {
+  background: linear-gradient(135deg, #2d2d2d, rgba(255, 107, 157, 0.15));
+  box-shadow: 0 8px 32px rgba(255, 107, 157, 0.25);
+  border: 2px solid rgba(255, 107, 157, 0.2);
+}
+
+.featureIcon:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 12px 40px rgba(247, 190, 216, 0.3);
+}
+
+:global([data-theme='dark']) .featureIcon:hover {
+  box-shadow: 0 12px 40px rgba(255, 107, 157, 0.4);
+}
+
+/* Animación suave para las tarjetas */
+.features .col {
+  transition: transform 0.3s ease;
+}
+
+.features .col:hover {
+  transform: translateY(-8px);
+}
+
+/* Estilos responsive */
+@media screen and (max-width: 996px) {
+  .features {
+    padding: 3rem 1rem;
+  }
+  
+  .featureIcon {
+    height: 100px;
+    width: 100px;
+    font-size: 3rem;
+  }
+}

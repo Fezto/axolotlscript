@@ -1,0 +1,23 @@
+axolotlscript:
+  name: Axolotlscript
+  title: Creador de contenido | Desarrollador apasionado 🦎
+  url: https://axolotlscript.dev
+  image_url: https://github.com/axolotlscript.png
+  page: true
+  socials:
+    youtube: '@axolotlscript'
+    tiktok: '@axolotlscript'
+    github: axolotlscript
+    discord: axolotlscript
+
+team:
+  name: Equipo Axolotlscript
+  title: Desarrolladores y educadores
+  url: https://axolotlscript.dev/team
+  image_url: https://axolotlscript.dev/img/team-avatar.png
+  page: true
+  socials:
+    x: sebastienlorber
+    linkedin: sebastienlorber
+    github: slorber
+    newsletter: https://thisweekinreact.com
