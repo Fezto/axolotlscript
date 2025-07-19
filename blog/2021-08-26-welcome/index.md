@@ -5,7 +5,7 @@ authors: [axolotlscript]
 tags: [comunidad, bienvenida, axolotl]
 ---
 
-Las [características del blog de Axolotlscript](https://axolotlscript.dev/docs) están impulsadas por nuestra pasión por enseñar programación de manera divertida.
+Las [características del blog de Axolotlscript](/docs/intro) están impulsadas por nuestra pasión por enseñar programación de manera divertida.
 
 Aquí tienes algunos consejos que pueden ser útiles para tu aventura de aprendizaje.
 

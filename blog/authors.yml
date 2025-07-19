@@ -5,10 +5,10 @@ axolotlscript:
   image_url: https://github.com/axolotlscript.png
   page: true
   socials:
-    youtube: '@axolotlscript'
-    tiktok: '@axolotlscript'
-    github: axolotlscript
-    discord: axolotlscript
+    youtube: 'https://www.youtube.com/@axolotlscript'
+    tiktok: 'https://www.tiktok.com/@axolotlscript'
+    github: 'https://github.com/axolotlscript'
+    discord: 'https://discord.gg/axolotlscript'
 
 team:
   name: Equipo Axolotlscript
